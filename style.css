@@ -1,0 +1,454 @@
+/***************** GLOBAL SECTION *****************/
+/***************** GLOBAL SECTION *****************/
+/***************** GLOBAL SECTION *****************/
+
+*{
+  font-family: poppins;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+}
+
+.container {
+  padding: 40px 150px;
+}
+
+.btn-small {
+  font-weight: 700;
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+  border-radius: 5rem;
+  padding: 10px 25px;
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+.btn-large {
+  font-weight: 700;
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+  border-radius: 5rem;
+  padding: 10px 25px;
+  opacity: 1;
+  transition: all 0.3s;
+  width: fit-content;
+  block-size: fit-content;
+  cursor: pointer;
+}
+
+.hamburger {
+  display: none;
+}
+
+/***************** NAVBAR SECTION *****************/
+/***************** NAVBAR SECTION *****************/
+/***************** NAVBAR SECTION *****************/
+
+.header-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+}
+
+.logo {
+  padding: 0 15px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  padding: 0 15px;
+  color: hsl(0, 0%, 75%);
+}
+
+.btn-small:hover {
+  opacity: 0.7;
+}
+
+/***************** HERO SECTION *****************/
+/***************** HERO SECTION *****************/
+/***************** HERO SECTION *****************/
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  overflow: hidden;
+}
+
+.hero-left {
+  margin-left: 150px;
+}
+
+.heading {
+  font-size: 62px;
+  font-weight: 700;
+  color: hsl(255, 11%, 22%);
+  line-height: 75px;
+}
+
+.paragraph {
+  color:  hsl(257, 7%, 63%);
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+
+.btn-large:hover {
+  opacity: 0.7;
+}
+
+.hero-image {
+  transform: translateX(15%);
+}
+
+/***************** INPUT SECTION *****************/
+/***************** INPUT SECTION *****************/
+/***************** INPUT SECTION *****************/ 
+
+.input-section {
+  background-color: hsl(225, 33%, 95%);
+  padding-bottom: 100px;
+}
+
+.input-box {
+  background-color: hsl(257, 27%, 26%);
+  padding: 50px;
+  margin: 0 auto;
+  background-image: url(images/bg-shorten-desktop.svg);
+  border: transparent;
+  border-radius: 10px;
+  transform: translateY(-75%);
+}
+
+.input-box form input {
+  padding: 20px;
+  font-size: 16px;
+  font-family: poppins;
+  width: 70%;
+  border: transparent;
+  border-radius: 10px;
+}
+
+.input-box form .link-btn {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  width: 20%;
+  background-color: hsl(180, 66%, 49%);
+  border: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 20px;
+  margin-left: 25px;
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+.input-box form .link-btn:hover {
+  opacity: 0.7;
+}
+
+.about {
+  text-align: center; 
+  width: 50%;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: hsl(257, 27%, 26%);
+}
+
+.h2-paragraph {
+  color:  hsl(257, 7%, 63%);
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+
+.about-paragraph {
+  color:  hsl(257, 7%, 63%);
+  padding-bottom: 20px;
+}
+
+.feature {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+}
+
+.feature::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  width: 50%;
+  height: 5px;
+  background-color: hsl(180, 66%, 49%);
+}
+
+.feature-box {
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.feature-box h3 {
+  position: relative;
+  top: -15px;
+  color: hsl(255, 11%, 22%);
+}
+
+.feature-box:not(:last-child) {
+  margin-right: 40px;
+}
+
+.feature-icon {
+  width: 100%;
+}
+
+.feature-image {
+  display: flex;
+  align-items: center;
+  width: 35px;
+  background-color: hsl(257, 27%, 26%);
+  padding: 20px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  position: relative;
+  top: -60px;
+}
+
+.feature-box {
+  position: relative;
+}
+
+.box2 {
+  top: 50px;
+}
+
+.box3 {
+  top: 100px;
+}
+
+/***************** BOOST SECTION *****************/
+/***************** BOOST SECTION *****************/
+/***************** BOOST SECTION *****************/
+
+.boost-section {
+  display: flex;
+  justify-content: center;
+  background-color: hsl(257, 27%, 26%);
+  background-image: url(images/bg-boost-desktop.svg);
+}
+
+.boost {
+  display: block;
+  text-align: center;
+}
+
+.boost-heading {
+  font-size: 44px;
+  font-weight: 700;
+  color: white;
+  line-height: 100px;
+}
+
+/***************** FOOTER SECTION *****************/
+/***************** FOOTER SECTION *****************/
+/***************** FOOTER SECTION *****************/
+
+.footer-section {
+  background-color: hsl(260, 8%, 14%);
+}
+
+.footer-heading {
+  padding-bottom: 15px;
+  color: hsl(0, 0%, 75%);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-menu ul li {
+  list-style-type: none;
+  padding: 3px 0;
+}
+
+.footer-menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-menu ul li a:hover {
+  color: hsl(180, 66%, 49%);
+}
+
+.icons {
+  padding: 5px;
+}
+
+
+/***************** MEDIA QUERIES *****************/
+/***************** MEDIA QUERIES *****************/
+/***************** MEDIA QUERIES *****************/
+
+@media only screen and (max-width: 375px) {
+
+  .container {
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  header {
+    display: flex;
+  }
+
+  nav {
+    padding: 20px 0;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .hamburger {
+    display: inline;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+    overflow: hidden;
+  }
+
+  .hero-left {
+    display: flex;
+    margin-left: 0;
+    padding: 30px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-btn {
+    justify-content: center;
+    align-self: center;
+  }
+
+  .heading {
+    font-size: 42px;
+    line-height: 60px;
+  }
+
+  .hero-image {
+    padding: 10px;
+    width: 135%;
+  }
+
+  .input-section {
+    padding-bottom: 180px;
+  }
+
+  .input-box {
+    background-image: url(images/bg-shorten-mobile.svg);
+    background-repeat: no-repeat;
+    padding: 20px;
+    transform: translateY(-50%);
+  }
+
+  .input-box form input {
+    padding: 15px;
+    width: 90%;
+  }
+
+  .input-box form .link-btn {
+    padding: 15px;
+    width: 50%;
+    margin-top: 12px;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .about {
+    margin: 18px;
+  }
+
+  .about h2 {
+    width: 300px;
+  }
+
+  .h2-paragraph{
+    width: 300px;
+    padding-bottom: 80px;
+  }
+
+  .feature-section {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .feature {
+    flex-direction: column;
+  }
+
+  .feature::after {
+    left: 50%;
+    top: 28%;
+    height: 500px;
+    width: 10px;
+  }
+
+  .feature-image {
+    left: 37%;
+  }
+
+  .feature-box:not(:last-child) {
+    margin-bottom: 40px;
+    margin-right: 0;
+  }
+
+  .boost {
+    padding: 40px 0;
+  }
+
+  .boost-heading {
+    font-size: 34px;
+    line-height: 50px;
+    margin-bottom: 25px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-logo {
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-menu {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .footer-icons {
+    padding: 15px;
+  }
+}
