@@ -356,6 +356,7 @@ nav {
   .hero-image {
     padding: 10px;
     width: 135%;
+    transform: translateX(0);
   }
 
   .input-section {
